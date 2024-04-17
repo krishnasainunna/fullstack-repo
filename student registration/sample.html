@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>    
+    <title>html form</title>   
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>   
+    <div>
+        <h1>Student Registration Form</h1>
+        <form action="result.html">
+            <fieldset>
+                <legend>Raja  institute</legend>
+            
+            <label>Enter Your First Name:</label>
+            <input type="text" name="fn" maxlength="15"><br><br>
+        <label>Enter Your Last Name:</label>
+            <input type="text" name="ln" maxlength="15"><br><br>            
+        <label>Enter Your User Name:</label>
+            <input type="text" name="un" maxlength="15"><br><br>
+        <label> Enter Your Password:</label>
+            <input type="password" name="pwd" minlength="8" maxlength="15"><br><br>
+        <label>  Select Your Gender:</label>
+            <input type="radio" name="Gender" value="male">male
+            <input type="radio" name="Gender" value="female">Female<br><br>
+        <label>   Enter Your Contact Number:</label>
+            <select name="contact">
+                <option name="None">None</option>
+                <option name="india",value="+91">+91</option>
+                <option name="pakistan",value="+92">+92</option>  
+                <option name="srilanka",value="+93">+93</option> 
+                <option name="afganistan",value="+90">+90</option> 
+            </select>
+            <input type="tel" name="mobile" pattern="[0-9]{5}-[0-9]{5}"><br><br>
+        <label> Enter your Date of Birth:</label>
+            <input type="date" name="dob"><br><br>
+        <label>   Enter your Favourite Color:</label>
+            <input type="color" name="favcol"><br><br>
+        <label>    upload your image:</label>
+            <input type="file" name="myimg"><br><br>
+        <label>    enter your email id:</label>
+            <input type="email" name="mail"><br><br>
+            <input type="checkbox" required><a href="tc.html" target="_blank">click here</a>
+            to read terms and conditions<br><br>
+            <input type="submit" value="submit">
+            &emsp;&emsp;
+            <input type="reset" value="reset">
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>

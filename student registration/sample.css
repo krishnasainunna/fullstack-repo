@@ -1,0 +1,47 @@
+div{
+    
+    margin-right:75px;
+    margin-left:300px;
+    
+}
+
+body{
+    background-image: url("https://plus.unsplash.com/premium_photo-1682758322249-78bebcf87054?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIyfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color:red;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+label{
+    color:blueviolet;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+input[type="submit"]{
+    color:cyan;
+    background-color: yellowgreen;
+    font-family: serif;
+    font-size: x-large;
+    font-style: italic;
+}
+
+input[type="reset"]{
+    color:darkgoldenrod;
+    background-color: royalblue;
+    font-family: serif;
+    font-size: x-large;
+    font-style: italic;
+}
+
+legend{
+    color:fuchsia;
+    font-family: monospace;
+    font-size: xx-large;
+    font-style:oblique;
+}
